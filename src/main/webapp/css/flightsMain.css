@@ -1,0 +1,71 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    background: url("../images/bg_menu.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+table {
+    width: 100%;
+}
+td {
+    text-align: center;
+}
+fieldset {
+    padding-bottom: 5px; padding-right: 5px; padding-left: 5px;
+}
+legend {
+    font-size: 20px;
+    margin-left: 20px;
+}
+.wrapperWelcomeInfo {
+    position: absolute;
+    left: 10px; top: 5px;
+}
+.wrapperPageData {
+    position: absolute;
+    left: 10px; top: 50px;
+}
+.resultFlightForm {
+    position: absolute;
+    left: 15px; top: 20px;
+    width: 550px;
+}
+.resultTableContents {
+    background-color: whitesmoke;
+    opacity: 0.7;
+    width: 700px;
+}
+.resultTableUsersFlights {
+    background-color: whitesmoke;
+    opacity: 0.85;
+    width: 850px;
+}
+.buttonElement {
+    display: inline-block;
+    margin-right: 10px;
+}
+.wrapperButtonsChooseFlight {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    text-align: justify;
+    text-align-last: justify;
+    padding-top: 8px;
+}
+.logoutElement {
+    position: fixed;
+    right: 10px; top: 10px;
+}
+.wrapperWelcomeInfo {
+    position: absolute;
+    left: 10px; top: 5px;
+}
+.welcomeElement {
+    font-size: 22px;
+}
+.userTypeElement {
+    position: fixed;
+    left: 10px; bottom: 5px;
+    color: firebrick;
+}

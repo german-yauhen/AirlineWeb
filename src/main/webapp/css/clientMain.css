@@ -1,0 +1,88 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    background: url("../images/bg_menu.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+select {
+    width: 100%;
+}
+fieldset {
+    padding-bottom: 5px; padding-right: 5px; padding-left: 5px;
+}
+.wrapperWelcomeInfo {
+    position: absolute;
+    left: 10px; top: 5px;
+}
+.welcomeElement {
+    font-size: 18px;
+}
+.wrapperPageData {
+    position: absolute;
+    left: 10px; top: 50px;
+}
+.updateUserElement {
+    position: absolute;
+}
+.wrapperButtons {
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    text-align-last: justify;
+}
+.buttonElement {
+    display: inline-block;
+    margin-right: 10px;
+}
+.messageElement {
+    color: firebrick;
+    font-weight: 600;
+}
+.inputElement {
+    opacity: 0.7;
+}
+.userTypeElement {
+    position: fixed;
+    left: 10px; bottom: 5px;
+    color: firebrick;
+}
+.logoutElement {
+    position: fixed;
+    right: 10px; top: 10px;
+}
+.luggageForm {
+    position: absolute;
+    top: 200px; left: 100px;
+}
+.flightInfoForm {
+    background-color: whitesmoke;
+    opacity: 0.75;
+}
+.flightsFindForm {
+    position: absolute;
+    top: 200px;
+    width: 460px;
+    margin-left: 6px;
+}
+.showTicketsForm {
+    position: absolute;
+    top: 320px;
+    left: 10px;
+    width: 120px;
+}
+.buttonShow {
+    height: 30px;
+    width: 120px;
+}
+.wrapperButtonsSearchFlight {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    text-align: justify;
+    text-align-last: justify;
+    padding-top: 8px;
+}
+.buttonElement {
+    display: inline-block;
+}
